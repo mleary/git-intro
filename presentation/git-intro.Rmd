@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Git for Data Science"
+title: "Introduction to Git"
 params:
   author: "Matt Leary"
   date: "March 26, 2020"
@@ -71,9 +71,11 @@ class: title-slide, center, bottom
 ]
 
 .pull-right[
-<span class="orange-bold">Note: This presentation will cover the basics of using Git for Data Science.</span>
+<span class="orange-bold">This presentation will cover the basics of using Git.</span>
 
 <span class="orange-bold"> It's target audience is those who aren't using Git regularly.</span>
+
+<span class="orange-bold">The goal is to introduce concepts at a high-level.</span>
 ]
 
 ---
@@ -156,7 +158,7 @@ knitr::include_graphics("./img/git-tracks.png")
 
 # How does Git work
 
-Git doesn't track when you save the file, you need to commit changes
+Git doesn't track when you save the file, <span class="orange-bold">you need to commit the changes</span> 
 
 Commiting files documents the changes you've made
 
@@ -209,7 +211,7 @@ knitr::include_graphics("./img/git-workflow.png")
 
 # Some common Git questions
 
-Q: Will I feel foolish learning Git?
+<span class="orange-bold">Q:  Will I feel foolish learning Git?</span>
 
 A: My experience is below.
 
@@ -221,7 +223,7 @@ knitr::include_graphics("./img/git_first_time.jpg")
 
 # Some common Git questions
 
-Q: What is the difference between Git vs Github?
+<span class="orange-bold">Q: What is the difference between Git vs Github?</span>
 
 Git is an open source, version control system
 
@@ -239,7 +241,7 @@ Some additional service providers:
 
 # Some common Git questions
 
-Q: What if I don't want to track a file?
+<span class="orange-bold">Q: What if I don't want to track a file?</span>
 
 A: You can do that!  Use a .gitignore file.
 
@@ -247,19 +249,19 @@ A: You can do that!  Use a .gitignore file.
 
 # Some common Git terms
 
-**Repo** - Short for repository - Really just a folder or place with files
+<span class="orange-bold">**Repo**</span> - Short for repository - Really just a folder or place with files
 
-**Origin/Remote** - where "real" code lives and is shared (TFS, Github)
+<span class="orange-bold">**Origin/Remote**</span> - where "real" code lives and is shared (TFS, Github)
 
-**Local** - Your personal copy of remote
+<span class="orange-bold">**Local**</span> - Your personal copy of remote
 
-**Clone** - Copying origin/remote repo to your local computer
+<span class="orange-bold">**Clone**</span> - Copying origin/remote repo to your local computer
 
-**Branch** - A "draft version", where you can work on code and not impact others
+<span class="orange-bold">**Branch**</span> - A "draft version", where you can work on code and not impact others
 
-**Commit** - Documenitng changes in a  "save"
+<span class="orange-bold">**Commit**</span> - Documenting changes 
 
-**Pull Request** - Asking others to accept your changes 
+<span class="orange-bold">**Pull Request**</span> - Asking others to accept your changes 
 
 ---
 
