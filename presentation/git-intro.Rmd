@@ -35,19 +35,19 @@ class: title-slide, center, bottom
 # Agenda
 
 .pull-left[
-1. Who is this person?
+1. Who is this person
 
-2. What is Git?
+2. What is Git
 
-3. How does Git work?
+3. How does Git work
 
-4. How do I use git?
+4. How do I use git
 
-5. Common terms & questions.
+5. Common terms & questions
 
-6. A quick look at more advanced Git.
+6. A quick look at more advanced Git
 
-7. Materials & resources.
+7. Materials & resources
 ]
 
 ---
@@ -55,19 +55,19 @@ class: title-slide, center, bottom
 # Agenda
 
 .pull-left[
-1. Who is this person?
+1. Who is this person
 
-2. What is Git?
+2. What is Git
 
-3. How does Git work?
+3. How does Git work
 
-4. How do I use git?
+4. How do I use git
 
-5. Common terms & questions.
+5. Common terms & questions
 
-6. A quick look at more advanced Git.
+6. A quick look at more advanced Git
 
-7. Materials & resources.
+7. Materials & resources
 ]
 
 .pull-right[
@@ -78,7 +78,7 @@ class: title-slide, center, bottom
 
 ---
 
-# Who is this person?
+# Who is this person
 .pull-left[
 
 ## Matt Leary
@@ -88,6 +88,8 @@ Data Scientist / Markel IM
 Developer on Success Sorter team 
 
 R enthusiast, Python user
+
+~3 years using Git 
 
 ]
 
@@ -113,6 +115,7 @@ Share code/collaborate easily
 Designed for <span class="orange-bold">software development</span>
 ]
 
+
 ---
 
 # What is Git &emsp;&nbsp; &emsp;&nbsp; What it prevents
@@ -137,13 +140,13 @@ knitr::include_graphics("./img/bad-version-control.png")
 
 ---
 
-# How does Git work?
+# How does Git work
 
 It tracks changes to files
 
 ---
 
-# How does Git work?
+# How does Git work
 
 ```{r out.width="90%", fig.align='center'}
 knitr::include_graphics("./img/git-tracks.png")
@@ -151,7 +154,26 @@ knitr::include_graphics("./img/git-tracks.png")
 
 ---
 
-# How does Git work?
+# How does Git work
+
+Git doesn't track when you save the file, you need to commit changes
+
+Commiting files documents the changes you've made
+
+Commiting > Saving
+
+Rule of thumb, commit changes daily
+
+---
+
+# How does Git work
+
+
+<span class="orange-bold">Demo!</span>
+
+---
+
+# How does Git work
 
 .pull-left[
 No more redundant code
@@ -169,22 +191,37 @@ knitr::include_graphics("./img/git-versin-control.png")
 ```
 ]
 
----
 
+---
 # How to use Git: Common workflow
 
-```{r}
+```{r out.width="85%", fig.align='center'}
 knitr::include_graphics("./img/git-workflow.png")
 ```
 
 ---
 
-# Some common Git terms
+# How to use Git: Common workflow
+
+<span class="orange-bold">Demo!</span>
 
 ---
 
 # Some common Git questions
-## Git vs Github
+
+Q: Will I feel foolish learning Git?
+
+A: My experience is below.
+
+```{r out.width="55%", fig.align='center'}
+knitr::include_graphics("./img/git_first_time.jpg")
+```
+
+---
+
+# Some common Git questions
+
+Q: What is the difference between Git vs Github?
 
 Git is an open source, version control system
 
@@ -201,7 +238,46 @@ Some additional service providers:
 ---
 
 # Some common Git questions
-## What is the difference between saving and committing a file?
+
+Q: What if I don't want to track a file?
+
+A: You can do that!  Use a .gitignore file.
+
+---
+
+# Some common Git terms
+
+**Repo** - Short for repository - Really just a folder or place with files
+
+**Origin/Remote** - where "real" code lives and is shared (TFS, Github)
+
+**Local** - Your personal copy of remote
+
+**Clone** - Copying origin/remote repo to your local computer
+
+**Branch** - A "draft version", where you can work on code and not impact others
+
+**Commit** - Documenitng changes in a  "save"
+
+**Pull Request** - Asking others to accept your changes 
+
+---
+
+# Some common Git terms
+
+```{r out.width="85%", fig.align='center'}
+knitr::include_graphics("./img/common-terms.png")
+```
+
+---
+# Advanced Git 
+
+* Command Line vs. User Interface
+
+* Merging conflicts
+
+* Actions based on merging
+
 
 ---
 
