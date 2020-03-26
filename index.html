@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Introduction to Git</title>
+    <meta charset="utf-8" />
+    <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css\my-fonts.css" type="text/css" />
+    <link rel="stylesheet" href="css\my-styles.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+class: title-slide, center, bottom
+
+# Introduction to Git
+
+### Matt Leary  |  March 26, 2020
+
+---
+
+# Agenda
+
+.pull-left[
+1. Who is this person
+
+2. What is Git
+
+3. How does Git work
+
+4. How do I use git
+
+5. Common terms &amp; questions
+
+6. A quick look at more advanced Git
+
+7. Materials &amp; resources
+]
+
+---
+
+# Agenda
+
+.pull-left[
+1. Who is this person
+
+2. What is Git
+
+3. How does Git work
+
+4. How do I use git
+
+5. Common terms &amp; questions
+
+6. A quick look at more advanced Git
+
+7. Materials &amp; resources
+]
+
+.pull-right[
+&lt;span class="orange-bold"&gt;This presentation will cover the basics of using Git.&lt;/span&gt;
+
+&lt;span class="orange-bold"&gt; It's target audience is those who aren't using Git regularly.&lt;/span&gt;
+
+&lt;span class="orange-bold"&gt;The goal is to introduce concepts at a high-level.&lt;/span&gt;
+]
+
+---
+
+# Who is this person
+.pull-left[
+
+## Matt Leary
+
+Data Scientist / Markel IM
+
+Developer on Success Sorter team 
+
+R enthusiast, Python user
+
+~3 years using Git 
+
+]
+
+.pull-right[
+
+&lt;img src="https://avatars2.githubusercontent.com/u/33221468?s=460&amp;v=4" width="50%" style="display: block; margin: auto;" /&gt;
+
+]
+---
+
+# What is Git 
+
+.pull-left[
+Open source version control system 
+
+Tracks changes to your code 
+
+Share code/collaborate easily
+
+Designed for &lt;span class="orange-bold"&gt;software development&lt;/span&gt;
+]
+
+
+---
+
+# What is Git &amp;emsp;&amp;nbsp; &amp;emsp;&amp;nbsp; What it prevents
+
+.pull-left[
+Open source version control system 
+
+Tracks changes to your code 
+
+Share code/collaborate easily
+
+Designed for &lt;span class="orange-bold"&gt;software development&lt;/span&gt;
+]
+
+.pull-right[
+
+&lt;img src="./img/bad-version-control.png" width="75%" /&gt;
+
+] 
+
+---
+
+# How does Git work
+
+It tracks changes to files
+
+---
+
+# How does Git work
+
+&lt;img src="./img/git-tracks.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+---
+
+# How does Git work
+
+Git doesn't track when you save the file, &lt;span class="orange-bold"&gt;you need to commit the changes&lt;/span&gt; 
+
+Commiting files documents the changes you've made
+
+Commiting &gt; Saving
+
+Rule of thumb, commit changes daily
+
+---
+
+# How does Git work
+
+
+&lt;span class="orange-bold"&gt;Demo!&lt;/span&gt;
+
+---
+
+# How does Git work
+
+.pull-left[
+No more redundant code
+
+&lt;img src="./img/bad-version-control.png" width="75%" /&gt;
+]
+
+.pull-right[
+A hidden folder tracks changes
+
+&lt;img src="./img/git-versin-control.png" width="75%" /&gt;
+]
+
+
+---
+# How to use Git: Common workflow
+
+&lt;img src="./img/git-workflow.png" width="85%" style="display: block; margin: auto;" /&gt;
+
+---
+
+# How to use Git: Common workflow
+
+&lt;span class="orange-bold"&gt;Demo!&lt;/span&gt;
+
+---
+
+# Some common Git questions
+
+&lt;span class="orange-bold"&gt;Q:  Will I feel foolish learning Git?&lt;/span&gt;
+
+A: My experience is below.
+
+&lt;img src="./img/git_first_time.jpg" width="55%" style="display: block; margin: auto;" /&gt;
+
+---
+
+# Some common Git questions
+
+&lt;span class="orange-bold"&gt;Q: What is the difference between Git vs Github?&lt;/span&gt;
+
+Git is an open source, version control system
+
+Github is a service provider, that hosts git repositories
+
+Some additional service providers:
+
+*  Gitlab
+
+*  Bitbucket
+
+*  &lt;span class="orange-bold"&gt;TFS/Azure DevOps&lt;/span&gt;
+
+---
+
+# Some common Git questions
+
+&lt;span class="orange-bold"&gt;Q: What if I don't want to track a file?&lt;/span&gt;
+
+A: You can do that!  Use a .gitignore file.
+
+---
+
+# Some common Git terms
+
+&lt;span class="orange-bold"&gt;**Repo**&lt;/span&gt; - Short for repository - Really just a folder or place with files
+
+&lt;span class="orange-bold"&gt;**Origin/Remote**&lt;/span&gt; - where "real" code lives and is shared (TFS, Github)
+
+&lt;span class="orange-bold"&gt;**Local**&lt;/span&gt; - Your personal copy of remote
+
+&lt;span class="orange-bold"&gt;**Clone**&lt;/span&gt; - Copying origin/remote repo to your local computer
+
+&lt;span class="orange-bold"&gt;**Branch**&lt;/span&gt; - A "draft version", where you can work on code and not impact others
+
+&lt;span class="orange-bold"&gt;**Commit**&lt;/span&gt; - Documenting changes 
+
+&lt;span class="orange-bold"&gt;**Pull Request**&lt;/span&gt; - Asking others to accept your changes 
+
+---
+
+# Some common Git terms
+
+&lt;img src="./img/common-terms.png" width="85%" style="display: block; margin: auto;" /&gt;
+
+---
+# Advanced Git 
+
+* Command Line vs. User Interface
+
+* Merging conflicts
+
+* Actions based on merging
+
+
+---
+
+# Presentation materials &amp; resources
+
+.pull-left[
+Presentation repo:
+
+[github/mleary](https://github.com/mleary/git-intro)
+]
+
+.pull-right[
+
+Additional resources:
+
+[R-Ladies Git Tutorial*](http://brunaw.com/slides/git-workshop/git-workshop.html#1) 
+
+[Github Resources](https://try.github.io)
+
+[Git Cheatsheet](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet)
+
+[Free Udemy Couse](https://www.udemy.com/course/git-started-with-github/)
+
+[Happy Git with R](https://happygitwithr.com)
+
+]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"ratio": "16:9",
+"highlightLines": true,
+"highlightStyle": "github",
+"highlightLanguage": ["r", "yaml", "markdown"]
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  /* Replace <script> tags in slides area to make them executable
+   *
+   * Runs after post-processing of markdown source into slides and replaces only
+   * <script>s on the last slide of continued slides using the .has-continuation
+   * class added by xaringan. Finally, any <script>s in the slides area that
+   * aren't executed are commented out.
+   */
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container:not(.has-continuation) script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+  var scriptsNotExecuted = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container.has-continuation script'
+  );
+  if (!scriptsNotExecuted.length) return;
+  for (var i = 0; i < scriptsNotExecuted.length; i++) {
+    var comment = document.createComment(scriptsNotExecuted[i].outerHTML)
+    scriptsNotExecuted[i].parentElement.replaceChild(comment, scriptsNotExecuted[i])
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
